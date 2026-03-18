@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: uav-jdk
+  data:
+    mongodb:
+      uri: mongodb://yuhui:Zxcvbnm123!@192.168.0.247:27017/local?authSource=admin
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://192.168.100.222:5434/sunset-platform?currentSchema=public&stringtype=unspecified
+    username: fun-sunset
+    password: s4H$1t8#DGmk$#D1
+ss:
+  mqtt:
+    ip: 192.168.0.249
+    port:
+      tcp: 1883
+      ws: 18083
+      http: 18083
+    username: yhui_consume
+    password: yhui_consume
+
