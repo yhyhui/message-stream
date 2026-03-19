@@ -1,7 +1,7 @@
 package fun.sunset.uavjdk.core.message.gateway;
 
-import fun.sunset.uavjdk.core.message.gateway.builtin.UndefinedTopicGateway;
 import fun.sunset.uavjdk.core.message.annotation.SsPublicGateway;
+import fun.sunset.uavjdk.core.message.gateway.builtin.UndefinedTopicGateway;
 import fun.sunset.uavjdk.core.message.model.MessagePayload;
 import fun.sunset.uavjdk.core.message.topic.router.TopicTree;
 import jakarta.annotation.Resource;

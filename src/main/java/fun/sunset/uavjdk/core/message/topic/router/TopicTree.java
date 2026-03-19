@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * - "#" 多层通配符
  * - "{var}" 变量占位符（当作 + 处理）
  */
-public class TopicTree implements TopicRouter{
+public class TopicTree{
 
     private final TopicNode root = new TopicNode();
 
